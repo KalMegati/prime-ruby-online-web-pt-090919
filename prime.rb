@@ -10,7 +10,7 @@ def prime?(number)
       if number % counter == 0
         return false
       end
-      factor = counter
+      factor *= counter
       counter += 1
     end
   end
